@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #206f8a;
+    padding-top: 76px
 }
 
 
@@ -25,14 +26,15 @@ body {
     padding: 25%;
 }
 
-@media (max-width: 812px) {
-    .foto {
-        padding: 50%;
-    }
-}
-
 
 /* Acerca de mí section */
+
+#acercademi {
+    padding-top: 126px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 126px;
+}
 
 .p1 {
     color: #000000;
@@ -46,6 +48,7 @@ body {
 .btnmodal {
     display: flex;
     justify-content: center;
+    font-size: 16px;
 }
 
 i {
@@ -61,8 +64,17 @@ i {
     margin-right: 6vw;
 }
 
+.cargos {
+    font-size: 25px;
+}
+
 footer {
     background-color: #292C2E;
+}
+
+.cars {
+    padding-top: 76px;
+    padding-bottom: 76px;
 }
 
 .caruosel {
@@ -71,6 +83,18 @@ footer {
 }
 
 .experiencia {
-    padding-bottom: 6%;
-    padding-top: 7%;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+@media (max-width: 812px) {
+    .foto {
+        padding: 50%;
+    }
+    .fa-6x {
+        font-size: 4em;
+    }
+    .cargos {
+        font-size: 22px;
+    }
 }
