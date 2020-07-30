@@ -1,7 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #206f8a;
-    padding-top: 76px
+    padding-top: 76px;
+    color: #84cccc;
 }
 
 
@@ -36,6 +37,10 @@ body {
     padding-bottom: 126px;
 }
 
+h2 {
+    color: #84cccc;
+}
+
 .p1 {
     color: #000000;
     text-align: justify;
@@ -52,7 +57,7 @@ body {
 }
 
 i {
-    color: #879cb0;
+    color: #84cccc;
 }
 
 .card {
