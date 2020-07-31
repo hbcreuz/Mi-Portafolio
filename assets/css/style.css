@@ -18,12 +18,14 @@ body {
     ;
 }
 
+
+/* Fotografía section */
+
 .foto {
     background-image: url(../img/portadaHB.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    /*background-attachment: fixed;*/
     padding: 25%;
 }
 
@@ -35,10 +37,6 @@ body {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 126px;
-}
-
-h2 {
-    color: #84cccc;
 }
 
 .p1 {
@@ -56,9 +54,20 @@ h2 {
     font-size: 16px;
 }
 
+
+/* Experiencia section*/
+
 i {
     color: #84cccc;
 }
+
+.experiencia {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+
+/* Trabajos section*/
 
 .card {
     background-color: #292C2E;
@@ -73,8 +82,9 @@ i {
     font-size: 25px;
 }
 
-footer {
-    background-color: #292C2E;
+.caruosel {
+    margin-bottom: 8%;
+    margin-top: 6%;
 }
 
 .cars {
@@ -82,15 +92,15 @@ footer {
     padding-bottom: 76px;
 }
 
-.caruosel {
-    margin-bottom: 8%;
-    margin-top: 6%;
+
+/* Footer */
+
+footer {
+    background-color: #292C2E;
 }
 
-.experiencia {
-    padding-bottom: 120px;
-    padding-top: 120px;
-}
+
+/* Media querys */
 
 @media (max-width: 812px) {
     .foto {
